@@ -104,7 +104,7 @@ class TestCases(unittest.TestCase):
             self.assertEqual(type(info[3]), str)
             # check that the rest two elements in the tuple are integers
             self.assertEqual(type(info[4]), int)
-            self.assertEqual(type(info[4]), int)
+            self.assertEqual(type(info[5]), int)
 
         # check that the first listing in the html_list has the correct policy number
 
